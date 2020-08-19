@@ -1,8 +1,16 @@
 body{
     font-family:'Roboto',sans-serif;
-    background-color: cornsilk;
+    background-color: rgb(107, 20, 20);
     height:100%;
     
 
     
 }
+/* for practicing
+#a{
+    background-color: cyan;
+}
+.b{
+    margin-top:5rem;
+}
+*/
