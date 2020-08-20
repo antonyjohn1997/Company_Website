@@ -51,5 +51,27 @@
     /* background-color: lime !important; */
 }
 
+/****************** section 1 ************/
+#smnHome{
+    height:100%;
+    background-color: mediumaquamarine;
+}
+#smnHomeCover{
+    height:100%;
+    background-image: url("D:/Antony/websites/jQueryBootstrapWeb-master/img/bg.jpg");
+}
+.bg-parallax{
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+#smnHomeHeading h3{
+    color:red;
+    font-size:50px;
+    font-weight:700;
+    margin:20px 0;
+}
 
 
