@@ -1,4 +1,4 @@
-body{
+ body{ 
     font-family:'Roboto',sans-serif;
     background-color: rgb(107, 20, 20);
     height:100%;
@@ -14,3 +14,42 @@ body{
     margin-top:5rem;
 }
 */
+/* **********   navigation ******************/
+.navbar{
+    background-color: hotpink;
+    padding:16px 0;
+    
+}
+.navbar-nav{
+    float:right;
+}
+.c{
+    background-color: indigo;
+}
+.nav-wrapper {
+    padding: 0 85px 0 40px;
+}
+
+.navbar-nav>li>a {
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.navbar-toggle {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 2px solid #fff;
+    border-radius: 0;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-collapse {
+    max-height: none !important;
+    /* background-color: lime !important; */
+}
+
+
+
