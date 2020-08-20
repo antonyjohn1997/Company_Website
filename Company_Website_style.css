@@ -75,3 +75,25 @@
 }
 
 
+/* ************ Animation ************** */
+
+#smnHomeCover {
+    -webkit-animation-delay: .1s;
+    animation-delay: .1s;
+    -webkit-animation-duration: .2s;
+    animation-duration: 6s;
+}
+
+#smnHomeHeading {
+    -webkit-animation-delay: .5s;
+    animation-delay: .5s;
+    -webkit-animation-duration: .7s;
+    animation-duration: 7s;
+}
+
+#smnHomeBtn {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: .5s;
+    animation-duration: 5s
+}
