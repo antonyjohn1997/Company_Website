@@ -14,3 +14,24 @@ body{
     margin-top:5rem;
 }
 */
+/* **********   navigation ******************/
+.navbar{
+    background-color: hotpink;
+    
+}
+.navbar-nav{
+    float:right;
+}
+.c{
+    background-color: indigo;
+}
+.nav-wrapper {
+    padding: 0 85px 0 40px;
+}
+
+.navbar-nav>li>a {
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
