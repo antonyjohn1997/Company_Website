@@ -51,5 +51,97 @@
     /* background-color: lime !important; */
 }
 
+/****************** section 1 ************/
+#smnHome{
+    height:100%;
+    background-color: mediumaquamarine;
+}
+#smnHomeCover{
+    height:100%;
+    background-image: url("D:/Antony/websites/jQueryBootstrapWeb-master/img/bg.jpg");
+}
+.bg-parallax{
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: mediumseagreen;
+    /* height:100%; */
+    /* width:100%; */
 
+}
+#smnHomeHeading h3{
+    color:red;
+    font-size:50px;
+    font-weight:700;
+    margin:20px 0;
+    background-color:cyan;
+}
+#smnHomeContentBox{
+    width:100%;
+    height:100%;
+    display:table;
+    /* display:flex; */
+    /* background-color: mediumorchid; */
+    
+}
+#smnHomeContentBoxinner{
+    /* display:flex; */
+    display:table-cell;
+    /* display:block; */
+    vertical-align:middle;
+    text-align:center;
+    /* align-items:center; */
+    /* position:relative; */
+    /* margin-right:-100px; */
 
+}
+.btn-general{
+    /* border:2px solid yellow; */
+    border-width:5px;
+    font-size:16px;
+    font-weight:400;
+    text-transform:uppercase;
+    height:100px;
+    width:100px;
+    color:green;
+}
+.btn-white{
+    border-color:pink;
+    color:white;
+}
+/*
+.d{
+    color:yellow;
+    margin-left:300px;
+    margin-bottom:10px;
+
+}*/
+
+/* ************ Animation ************** */
+
+#smnHomeCover {
+    -webkit-animation-delay: .1s;
+    animation-delay: .1s;
+    -webkit-animation-duration: .2s;
+    animation-duration: 6s;
+}
+
+#smnHomeHeading {
+    -webkit-animation-delay: .5s;
+    animation-delay: .5s;
+    -webkit-animation-duration: .7s;
+    animation-duration: 7s;
+}
+
+#smnHomeBtn {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: .5s;
+    animation-duration: 5s
+}
+.btn-general{
+    border-width:2px;
+    border-radius:0;
+    padding:;
+}
